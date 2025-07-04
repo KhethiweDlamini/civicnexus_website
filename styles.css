@@ -89,7 +89,6 @@ h1 {
   .sidebar {
     width: 100%;
     height: auto;
-    flex-direction: row;
     justify-content: center;
     padding: 10px;
   }
@@ -107,8 +106,7 @@ h1 {
   }
 
   h1 {
-    font-size: 40px;
-    margin-bottom: 30px;
+    font-size: 50px;
   }
 
   .tiles {
@@ -119,7 +117,7 @@ h1 {
 
   .tile {
     width: 80%;
-    max-width: 300px;
+    width: 200px;
     height: 150px;
     font-size: 16px;
   }
