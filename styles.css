@@ -55,7 +55,7 @@ h1 {
   margin-bottom: 60px;
   text-align: center;
   color: #dee3f9;
-  text-shadow: 3px 3px 8px rgba(155, 103, 31, 0.6);
+  text-shadow: 3px 3px 8px rgba(29, 24, 18, 0.6);
 }
 
 .tiles {
@@ -78,5 +78,5 @@ h1 {
 }
 
 .tile:hover {
-  background-color: #3ba6be;
+  background-color: #73b3c2;
 }
