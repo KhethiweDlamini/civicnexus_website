@@ -80,3 +80,47 @@ h1 {
 .tile:hover {
   background-color: #73b3c2;
 }
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .sidebar img {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .main {
+    width: 100%;
+    padding-top: 30px;
+    justify-content: flex-start;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .tiles {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .tile {
+    width: 80%;
+    max-width: 300px;
+    height: 150px;
+    font-size: 16px;
+  }
+}
